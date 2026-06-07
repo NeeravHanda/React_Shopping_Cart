@@ -2,7 +2,7 @@ import React from "react";
 
 import { useCart } from "../Context/CartContext";
 import { Link } from "react-router-dom";
-import CartItem from "../Components/CartItem";
+import CartItem from "../Components/Cartitem";
 
 import { ShoppingCart, ChevronLeft, Zap } from "lucide-react";
 
