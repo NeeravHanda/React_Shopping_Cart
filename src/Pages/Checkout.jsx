@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { useCart } from "../Context/CartContext";
-import OrderConfirmation from '../Pages/OderConfirmation';
+import OrderConfirmation from '../Pages/OrderConfirmation';
 import { Link } from "react-router-dom";
 
 import { Package, MapPin, Zap } from "lucide-react";

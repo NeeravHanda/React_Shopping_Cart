@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useMemo } from 'react';
-import { initialProducts } from '../data/Product';
+import { initialProducts } from '../data/product';
 import { toast, Bounce } from 'react-toastify';
 
 const CartContext = createContext();

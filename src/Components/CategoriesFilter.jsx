@@ -1,5 +1,5 @@
 import React from 'react';
-import { initialProducts } from '../data/Product';
+import { initialProducts } from '../data/product';
 import { Tag } from 'lucide-react';
 
 const availableCategories = [

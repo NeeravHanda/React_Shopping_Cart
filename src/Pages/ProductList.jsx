@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import Searchfilter from '../Components/Searchfilter';
+import SearchFilter from '../Components/SearchFilter';
 import Categories from '../Components/CategoriesFilter';
 import ProductCard from '../Components/ProductCard';
 import { useCart } from '../Context/CartContext';
@@ -24,7 +24,7 @@ const ProductList = () => {
   return (
     <>
       <div className="container mx-auto px-4 py-8">
-        <Searchfilter searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+        <SearchFilter searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <Categories 
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}

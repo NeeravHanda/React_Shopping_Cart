@@ -22,20 +22,20 @@ const OrderConfirmation = ({deliveryDetails}) => {
        <p>{deliveryDetails?.city},{deliveryDetails?.zip}</p>
        </div>
 
-        <Link
-              to={"/"}
-              className="mt-10 px-4 py-4 bg-orange-600 text-white font-extrabold rounded-full shadow-lg shadow-orange-800/50 cursor-pointer hover:bg-orange-700 transition duration-300 flex items-center justify-center space-x-2 transform hover:ring-4 hover:ring-pink-600/50 uppercase tracking-wider"
-            >
-              
-              Continue Shopping
-            </Link>
-            
+         <Link
+               to={"/"}
+               className="mt-10 px-4 py-4 bg-orange-600 text-white font-extrabold rounded-full shadow-lg shadow-orange-800/50 cursor-pointer hover:bg-orange-700 transition duration-300 flex items-center justify-center space-x-2 transform hover:ring-4 hover:ring-pink-600/50 uppercase tracking-wider"
+             >
+               
+               Continue Shopping
+             </Link>
+             
 
-      </div>
+       </div>
 
-    </div>
-    </>
-  )
+     </div>
+     </>
+   )
 }
 
 export default OrderConfirmation
